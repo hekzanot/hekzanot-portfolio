@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Sport Center Management System Web App (CRM)",
+    "image": "https://imgur.com/omdQfN1.png",
+    "description": "Laravel ile geliştirilmiş bir Spor Merkezi Yönetim Sistemi Web Uygulaması. E-fatura oluşturan, üye/abone sistemi, manuel ödeme sistemi, randevu takvimi, işletme istatistikleri gibi birçok özelliğe sahip komplike bir sistem kodlandı.",
+    "tags": ["Laravel", "JavaScript", "JQuery", "MySQL", "PHP"],
+    "source_code": "#",
+    "demo": "#"
+  },
+
+  {
+    "id": 2,
+    "name": "E-Commerce Project",
+    "image": "https://imgur.com/a1WeTG8.png",
+    "description": "Bitirme projesi kapsamında Laravel ile gelişmiş bir e-ticaret sistemi kodlandı.",
+    "tags": ["Laravel", "PHP", "Payment GetAway", "Jetstream", "CRUD", "MySQL"],
+    "source_code": "#",
+    "demo": "#"
+  },
+  {
+    "id": 3,
+    "name": "Twitter Clone",
+    "image": "https://imgur.com/8pXx5hx.png",
+    "description": "Next'in sağladığı react alt yapısı sayesinde konfigrasyon ile uğraşmadan kodlanan bir Twitter klonu projesi.",
+    "tags": ["react", "next", "storybook", "firebase", "PostCss", "Twitter API"],
+    "source_code": "https://github.com/hekzanot/Twitter-clone-with-React.Js",
+    "demo": "https://twitter-clone-with-react-js.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "VSCode Portfolio",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "VSCode tabanlı, temalı ve geliştirici merkezli bir portföy.",
+    "tags": ["next", "css-modules"],
+    "source_code": "https://github.com/hekzanot/hekzanot.github.io",
+    "demo": "http://hekzanot.github.io"
+  }
+]
