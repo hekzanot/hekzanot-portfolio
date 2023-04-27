@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Mücahit Eren Özcan</h1>
-            <h6 className={styles.bio}>Jr. Frontend Developer</h6>
+            <h6 className={styles.bio}>Jr. Software Engineer</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -39,7 +39,7 @@ export default function HomePage() {
                       JQuery
                     </span>
                     <span key='Data-Pipelines' className='Data-Pipelines'>
-                      React.Js
+                      React/Next.Js 
                     </span>
                     <span key='MLOps' className='MLOps'>
                       GIT

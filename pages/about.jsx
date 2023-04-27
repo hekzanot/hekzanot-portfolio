@@ -1,6 +1,6 @@
 import { pdfjs, Document, Page, PDFDownloadLink } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const myResume = './MücahitErenÖzcan-CV.pdf';
+const myResume = './MucahitErenOzcan-CV-TR.pdf';
 
 const AboutPage = () => {
   return (
@@ -14,7 +14,7 @@ const AboutPage = () => {
       </ul>
       <br/>
       <center>
-        <h3>CV (<a href={myResume} download="MücahitErenÖzcan.pdf">İndir</a>)</h3>
+        <h3>CV (<a href={myResume} download="MucahitErenOzcan-CV-TR.pdf">İndir</a>)</h3>
         <br />
         <Document file={myResume}>
           <Page pageIndex={0} />

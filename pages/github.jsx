@@ -36,9 +36,11 @@ const GithubPage = ({ repos, user }) => {
         </div>
       </a>
       <div className={styles.container}>
-        {repos.map((repo) => (
-          <RepoCard key={repo.id} repo={repo} />
-        ))}
+        {repos && repos.length > 0 ? (
+          repos.map((repo) => <RepoCard key={repo.id} repo={repo} />)
+        ) : (
+          <p>No repositories found.</p>
+        )}
       </div>
       <div><center><h3>My Github Calendar</h3></center></div>
       <br />
@@ -78,9 +80,13 @@ export async function getStaticProps() {
 
   let repos = await repoRes.json();
 
-  repos = repos
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0);
+  if (Array.isArray(repos)) {
+    repos = repos
+      .sort((a, b) => b.stargazers_count - a.stargazers_count)
+      .slice(0);
+  } else {
+    repos = [];
+  }
 
   return {
     props: { title: 'GitHub', repos, user },
