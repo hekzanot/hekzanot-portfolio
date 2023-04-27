@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: 'Website',
-    link: 'hekzanot.github.io',
-    href: 'https://hekzanot.github.io',
+    link: 'hekzanot-portfolio',
+    href: 'https://hekzanot-portfolio.vercel.app/',
   },
 ];
 
