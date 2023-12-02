@@ -32,19 +32,28 @@ export default function HomePage() {
                     <span key='Apache-Spark' className='Apache-Spark'>
                       Bootstrap
                     </span>
-                    <span key='SQL' className='SQL'>
+                    <span key='storybook' className='storybook'>
+                      Bulma CSS
+                    </span>
+                    <span key='next' className='next'>
                       JavaScript
+                    </span>
+                    <span key='Twitter' className='Twitter'>
+                      TypeScript
                     </span>
                     <span key='Computer-Vision' className='Computer-Vision'>
                       JQuery
                     </span>
-                    <span key='Data-Pipelines' className='Data-Pipelines'>
-                      React/Next.Js 
+                    <span key='Software-Design' className='Software-Design'>
+                      VueJs
+                    </span>
+                    <span key='Payment' className='Payment'>
+                      NodeJS
                     </span>
                     <span key='MLOps' className='MLOps'>
                       GIT
                     </span>
-                    <span key='Software-Design' className='Software-Design'>
+                    <span key='Data-Pipelines' className='Data-Pipelines'>
                       Laravel
                     </span>
                     <span key='Bots' className='Bots'>
@@ -57,13 +66,13 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <Link href="/about">
+            <Link href='/about'>
               <button className={styles.button}>Hakkımda</button>
             </Link>
             {/* <Link href="/projects">
               <button className={styles.button}>View Projects</button>
             </Link> */}
-            <Link href="/contact">
+            <Link href='/contact'>
               <button className={styles.outlined}>İletişim</button>
             </Link>
           </div>
@@ -72,18 +81,17 @@ export default function HomePage() {
             <div className={styles.picture_boader}>
               <Image
                 className={styles.picture}
-                src="/ben.jpg"
+                src='/ben.jpg'
                 width={300}
                 height={290}
                 alt="Mücahit' Picture"
               />
             </div>
-
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
 
 export async function getStaticProps() {

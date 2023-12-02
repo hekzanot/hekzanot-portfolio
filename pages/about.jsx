@@ -10,11 +10,11 @@ const AboutPage = () => {
         <li><span role="img" aria-label="book">📖</span> Yazılım Mühendisliği @ <a href='#'>Fırat Üniversitesi</a>.</li>
         <li><span role="img" aria-label="graduate-hat">🎓 </span> Güncel Fronted Teknolojileri üzerine araştırmalar.</li>
         <li><span role="img" aria-label="light-bulb">💡</span> Freelance işlere ve iş tekliflerine açık.</li>
-        <li><span role="img" aria-label="laptop">💻</span> Şuan da React.Js Framework'ü üzerinde çalışıyor.</li>
+        <li><span role="img" aria-label="laptop">💻</span> Şuan da VueJS ve NodeJS Framework'leri üzerinde çalışıyor.</li>
       </ul>
       <br/>
       <center>
-        <h3>CV (<a href={myResume} download="MucahitErenOzcan-CV.pdf">İndir</a>)</h3>
+        <h3>CV (<a href={myResume} download="MucahitErenOzcan-CV-TR.pdf">İndir</a>)</h3>
         <br />
         <Document file={myResume}>
           <Page pageIndex={0} />
