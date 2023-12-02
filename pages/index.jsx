@@ -35,7 +35,7 @@ export default function HomePage() {
                     <span key='storybook' className='storybook'>
                       Bulma CSS
                     </span>
-                    <span key='next' className='next'>
+                    <span key='Computer-Vision' className='Computer-Vision'>
                       JavaScript
                     </span>
                     <span key='Twitter' className='Twitter'>
@@ -83,7 +83,7 @@ export default function HomePage() {
                 className={styles.picture}
                 src='/ben.jpg'
                 width={300}
-                height={290}
+                height={400}
                 alt="Mücahit' Picture"
               />
             </div>
